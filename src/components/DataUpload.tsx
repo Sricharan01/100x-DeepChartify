@@ -30,6 +30,8 @@ ChartJS.register(
   LineElement,
   BarElement,
   BarController,
+  PieController,
+  LineController,
   ArcElement,
   RadialLinearScale,
   Title,
