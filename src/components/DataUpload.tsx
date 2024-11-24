@@ -10,6 +10,8 @@ import {
   LineElement,
   BarElement,
   BarController,
+  PieController,
+  LineController,
   ArcElement,
   RadialLinearScale,
   Title,
