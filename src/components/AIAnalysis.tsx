@@ -46,7 +46,7 @@ const AIAnalysis: React.FC<AIAnalysisProps> = ({ data, onAnalysisComplete }) => 
         Data Sample (first 5 rows): ${JSON.stringify(dataSample, null, 2)}`;
 
       const response = await hf.textGeneration({
-        model: 'mistralai/Mistral-7B-Instruct-v0.2',
+        model: 'meta-llama/Meta-Llama-3-8B',
         inputs: systemPrompt,
         parameters: {
           max_new_tokens: 500,
