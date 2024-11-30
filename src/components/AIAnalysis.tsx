@@ -23,7 +23,7 @@ const AIAnalysis: React.FC<AIAnalysisProps> = ({ data, onAnalysisComplete }) => 
       setLoading(true);
       setError('');
 
-      const hf = new HfInference("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");
+      const hf = new HfInference("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");
 
       // Prepare a clean data sample
       const dataSample = data.slice(0, 5).map(item => {
